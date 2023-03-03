@@ -1,0 +1,162 @@
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.appbar-title{
+  color:#fff;
+  font-weight:700;
+}
+
+/* SOS Buttons */
+
+.sos-container button {
+  outline: none;
+  width: 170px;
+  height: 170px;
+  border: none;
+  border-radius: 100px;
+  background-color: red;
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  border: 5px solid pink;
+  box-shadow: 0 0 5px gray;
+  position: relative;
+  margin: 10px;
+}
+.sos-container button :focus {
+  box-shadow: 0 0 1px black;
+}
+
+.sos-img {
+  width: 100px;
+    position: absolute;
+    top: 8px;
+    left: 35px
+}
+.sos-heading {
+  position: relative;
+  top: -35px;
+  font-size: 1.1em;
+}
+
+
+/* LOGIN */
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+
+}
+.form {
+  z-index: 1;
+  background: #DDA15E;
+  max-width: 360px;
+  margin: 0 ;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form-input {
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+border-radius:20px;
+  
+}
+.form button {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: .1em;
+  outline: 0;
+  background: #208850;
+  width: 100%;
+  border: 0;
+border-radius:30px;
+  margin: 0px 0px 8px;
+  padding: 15px;
+  color: #FFFFFF;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  transition: all 0.2s;
+
+}
+.form button:hover,.form button:focus {
+  background: #606C38;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  transform: translateY(-4px);
+}
+.form button:active {
+  transform: translateY(2px);
+  box-shadow: 0 2.5px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.form .message a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+
+.login-bg {
+  height: 100vh;
+  background-color: #76b852; /* fallback for old browsers */
+  background: -webkit-linear-gradient(right, #76b852, #8DC26F);
+  background: -moz-linear-gradient(right, #76b852, #8DC26F);
+  background: -o-linear-gradient(right, #76b852, #8DC26F);
+  background: linear-gradient(to left, #76b852, #8DC26F);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
+
+
+
+
+/* Safety Page */
+
+
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.card img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.card {
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  border-radius: 0;
+}
+.carousel-inner {
+  padding: 1em;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #e1e1e1;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@media (min-width: 768px) {
+  .card img {
+    height: 11em;
+  }
+}
