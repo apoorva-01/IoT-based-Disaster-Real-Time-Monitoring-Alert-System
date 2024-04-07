@@ -1,4 +1,4 @@
-# RAKSH
+# RAKSH (Disaster Real Time Monitoring Alert System)
 ![](https://cdn.discordapp.com/attachments/992337104510144532/1074259326241349642/image-removebg-preview-5-2.png) 
 <!-- short description -->
 A contemporary system called **RAKSH**, your personal disaster alarm system, is a cutting-edge tool that detects disasters in real time and aids in mitigation through an intuitive web interface.
@@ -6,7 +6,7 @@ Real-time monitoring of natural disasters is made possible with our RAKSH, allow
 
 
 ## Raksh in Action!
-You can try out Raksh at [https://hack-nsut.igscs.in/](https://hack-nsut.igscs.in/) !
+[Video](https://youtu.be/56r0W1CgivM?si=RzXV4G7qN0KwpCB2)!
 <!-- Screenshots -->
 
 ## Running Raksh locally
@@ -72,11 +72,10 @@ git commit -m "commit message"
 ```bash
 git push origin <branch-name>
 ```
+## Contact - Apoorva Verma
 
+[Resume Website](https://apoorva.igscs.in/)
 
+[![linkedin](https://img.shields.io/badge/Apoorva_Verma-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/apoorva-verma-aa045a202/)
+[![GitHub](https://img.shields.io/badge/Apoorva_Verma-252525?style=for-the-badge&logo=Github&logoColor=white)](https://github.com/apoorva-01/)
 
-## Author - Apoorva Verma
-
-- [Linkedin](https://www.linkedin.com/in/apoorva-verma-aa045a202/)
-- [Resume Website](https://apoorva-verma.netlify.app/)
-- [Github](https://github.com/apoorva-01/)
